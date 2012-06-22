@@ -1,3 +1,6 @@
+include_package "libxcb"
+include_package "libxcb-render"
+
 packages = Array.new
 
 case node[:lsb][:codename]
